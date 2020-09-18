@@ -1,0 +1,46 @@
+div{
+	border: 1px solid black;
+	background-color: #E2F3F0;
+	font-size: 20px;
+	margin-left: 1px;
+	text-align: center;
+	box-shadow: 1px 5px 0px black;
+}
+body{
+	border: 15px solid #BD1F1F;
+	border-radius: 35%; 
+	margin-left: 570px;
+	margin-top: 370px;
+	background-image: url("Green1.jpg");
+	display: inline-flex;
+	flex-direction: row;
+}
+.three{
+	transition: height 2s;
+	font-family: algerian;
+	margin-bottom: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 15%;
+}
+@font-face {
+   font-family: Font;
+   src: url(sansation_light.woff);
+}
+* {
+   font-family: Font;
+}
+.one, .two{
+	transition: height 2s;
+	font-family: algerian;
+	margin-bottom: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 15%;
+}
+
+.one:hover, .two:hover, .three:hover{
+	height: 300px;
+	background-image: linear-gradient(to top, #f5af19, #0000 );
+}
+
